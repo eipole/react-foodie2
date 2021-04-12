@@ -5,7 +5,8 @@ import { handleDeleteRecept } from "./functions"
 
 const useStyles = makeStyles((theme) => ({
   headingStyles: {
-    display: "flex"
+    display: "flex",
+    justifyContent: "space-between"
   },
   redButton: {
     color: theme.deleteColor

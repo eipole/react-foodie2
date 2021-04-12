@@ -26,7 +26,7 @@ export function handleAddRecept(set, setId) {
 
 export function handleAddIngredient(func, selectedRecept) {
   const newIngredient = {
-    id: uuidv4,
+    id: uuidv4(),
     name: "",
     amount: ""
   }

@@ -9,7 +9,7 @@ export default function IngredientList({ ingredients }) {
   return (
     <>
       <Typography>Ingredients:</Typography>
-      <div>{ingredient}</div>
+      {ingredient}
     </>
   )
 }
